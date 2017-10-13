@@ -40,9 +40,11 @@ html {
 }
 
 body {
+  background-color: #191E26;
   padding-top: 3.666em; /* 66 / 18 = 3.666 */
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
+
 }
 
 
@@ -108,7 +110,11 @@ i,em,cite {
 b,strong {
   font-weight: bold;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+  
+}
 /* Layout */
 
 #navigation {
@@ -142,7 +148,7 @@ nav a {
   display: block;
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  background-color: orange;
+  background-color:Purple;
   text-align: center;
   text-decoration: none;
 }
@@ -201,7 +207,6 @@ nav a {
   */
 
   body {
-
 
 
   }
@@ -272,10 +277,7 @@ nav a {
     padding-left: 20%;
 
   }
-  img {
-    display: block;
-    max-width: 100%;
-  }
+
 }
 © 2017 GitHub, Inc.
 Terms
