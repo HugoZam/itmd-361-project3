@@ -29,13 +29,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  font-size: 1.025em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.222 */
   text-rendering: optimizeLegibility;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
