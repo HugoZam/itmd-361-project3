@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  background-color: #6FDEFF;
+  background-color:#1d809f;
   padding-top: 3.666em; /* 66 / 18 = 3.666 */
   padding-right: 1.222em; /* 22 / 18 = 1.222 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
@@ -150,7 +150,9 @@ footer{
 .flexbox #navigation li {
   float: none;
 }
-
+title{
+  background-color:  #0c508b;
+}
 
 /* Modular */
 nav ul {
@@ -161,12 +163,12 @@ nav a {
   display: block;
   padding-top: 0.611em; /* 11 / 18 = 0.611 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  background-color:#11667F;
+  background-color:#fed044;
   text-align: center;
   text-decoration: none;
 }
 nav a:hover{
-  background-color: #418295;
+  background-color:#777777;
 }
 
 
