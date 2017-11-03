@@ -113,7 +113,13 @@ b,strong {
 img {
     max-width: 70%;
     display: block;
-
+}
+footer{
+  margin-top: 1.222em;
+  text-align: center;
+}
+#foot {
+  padding-top: 12em;
 }
 .photo-one{
   float: right;
