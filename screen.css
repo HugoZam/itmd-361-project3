@@ -67,7 +67,7 @@ h2 {
 
 h3 {
   font-weight: bold;
-  padding-top: 1.222em; /* 22 / 18 = 1.222 */
+  padding-top: .222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
 
 }
@@ -77,9 +77,8 @@ li {
 }
 
 ul,ol {
-
   padding-bottom: 0.611em; /* 11 / 18 = 0.611 */
-  color: red;
+
 }
 
 ul {
@@ -91,9 +90,7 @@ ol {
   list-style-type: decimal;
 }
 
-li > ul,
-
-li > ol {
+li > ul, li > ol {
   padding-top:  0.611em; /* 11 / 18 = 0.611 */
   padding-left: 1.222em; /* 22 / 18 = 1.222 */
   padding-bottom: 0;
