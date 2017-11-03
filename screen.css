@@ -113,10 +113,14 @@ b,strong {
   font-weight: bold;
 }
 img {
-    max-width: 100%;
+    max-width: 70%;
+    display: block;
 
 }
-
+.photo-one{
+  float: right;
+  justify-content: space-between;
+}
 /* Layout */
 
 #navigation {
@@ -138,21 +142,7 @@ img {
 .flexbox #navigation li {
   float: none;
 }
-#wrapper{
-  max-width: 1050px;
-  margin: 60px auto 60px auto;
-  background-color: #DDD;
-}
-#outer {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-.itemwrapper {
-  display: table-cell;
-  vertical-align: top;
-  width: 100%;
-}
+
 
 /* Modular */
 nav ul {
@@ -292,11 +282,3 @@ nav a:hover{
     padding-left: 20%;
 
   }
-
-}
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
